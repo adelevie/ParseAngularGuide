@@ -63,11 +63,7 @@ Just as with querying data, you'll need to add `$scope.$apply` inside of your `s
 ```javascript
 'use strict';
 
-/**
- * RegistrationController
- */
-  
-skeletonApp.controller('RegistrationController', 
+skeletonApp.controller('GameScoreController', 
   ['$scope', 'ParseService', function($scope, $location, ParseService) {
 
   $scope.submit = function() {
