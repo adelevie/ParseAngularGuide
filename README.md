@@ -40,7 +40,7 @@ skeletonApp.controller('GameScoreListController',
 
   var GameScore = Parse.Object.extend("GameScore");
 
-  var query = new Parse.Query(GameStore);
+  var query = new Parse.Query(GameScore);
 
   query.find({
     success: function(results) {
