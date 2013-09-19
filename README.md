@@ -74,7 +74,7 @@ skeletonApp.controller('RegistrationController',
 
     var GameScore = Parse.Object.extend("GameScore");
 
-    var gameScope = new GameScore();
+    var gameScore = new GameScore();
 
     gameScore.set("score", 1337);
     gameScore.set("playerName", "Sean Plott");
